@@ -43,13 +43,12 @@
 
   .food-description{
     max-width: 220px!important;
-    white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+   
   }
   .food-title{
     max-width: 220px!important;
-    white-space:pre-wrap;
+    font-size: 16px!important;
+    
   }
 
   #add-recipe span{
@@ -66,8 +65,9 @@
   #togglePassword {
     position: absolute;
     margin-top: 7px;
-    margin-left:80px;
+    margin-left: 170px;
     cursor: pointer;
+    float: right;
 }
 .comments{
   background: #ffffff!important;
