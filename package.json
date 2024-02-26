@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "<!-- PROJECT LOGO  --> <br /> <p align=\"center\">   <a href=\"https://github.com/schaudhary1/take-my-recipe\">     <img src=\"./public/images/logo.png\" alt=\"Logo\" width=\"100\" height=\"\">   </a>",
   "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "connect-session-sequelize": "^7.1.7",
