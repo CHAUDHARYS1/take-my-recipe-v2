@@ -19,10 +19,10 @@
                 <img src="/images/logo.png" class="uk-center" alt="Take My Recipe logo"
                     uk-tooltip="title: Go back to the homepage; pos: bottom" />
             </a>
-              {{#if loggedIn}}
-                <span class="">Hi {{ firstname }},</span>
-                {{else}}
-                {{/if}}
+            {{#if loggedIn}}
+            <span class="">Hi {{ firstname }},</span>
+            {{else}}
+            {{/if}}
         </div>
 
         <!-- Navigation on the right side -->
@@ -30,7 +30,7 @@
             <!-- Login/Signup page -->
             <div class="uk-padding-small">
                 {{#if loggedIn}}
-               <a href="/dashboard" id="dashboard">
+                <a href="/dashboard" id="dashboard">
                     <button class="category-buttons uk-button uk-button-primary">My Dashboard</button>
                 </a>
                 <a id="logout">
@@ -57,7 +57,7 @@
             <div class="uk-margin-left footer-content">
                 <p>Built with love by the <span
                         uk-tooltip="Connor Werth, Jaya Gudipalli, Shital Chaudhary"><u>team</u></span> |
-                     &copy; 2024. All Rights Reserved. </p>
+                    &copy; 2024. All Rights Reserved. </p>
             </div>
             <div class="uk-margin-left footer-content">
                 <p><a href="https://github.com/CHAUDHARYS1/take-my-recipe-v2" target="_blank"></span><u>See code in
@@ -68,9 +68,16 @@
             </div>
         </div>
     </footer>
+            <script src="/javascript/main.js"></script>
+
     {{#if loggedIn}}
     <script src="/javascript/logout.js"></script>
+    <script src="/javascript/idle-detection.js"></script>
+
     {{/if}}
+
+    <!-- Idle detection -->
+
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.4/dist/css/uikit.min.css" />
     <!-- UIkit JS -->

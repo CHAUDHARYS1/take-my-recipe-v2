@@ -150,3 +150,10 @@ Project Link: [https://github.com/schaudhary1/take-my-recipe](https://github.com
 - [Jaya Gudipalli](https://github.com/jaya1983)
 - [Conner Werth](https://github.com/Connorw2222)
 - [Shital Chaudhary](https://github.com/CHAUDHARYS1)
+
+## Upcoming features
+Auto Logout: Automatically log out users if no mouse movement or keyboard press is detected in 15 minutes.
+
+
+## Upcoming Fixes
+Ingredients Formatting: Add formatting for ingredients page to list and format ingredients correctly.
